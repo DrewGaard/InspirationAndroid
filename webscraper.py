@@ -7,7 +7,7 @@ import tkMessageBox
 def getQuotes():
     my_url_base = "https://www.goodreads.com/quotes?page="
 
-    validPageNumbers = range(1,2)
+    validPageNumbers = range(1,100)
     page_soup = []
 
     for n in range(len(validPageNumbers)):
